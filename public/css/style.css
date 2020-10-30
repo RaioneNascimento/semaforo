@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-Red: #FB6D55;
+  --color-Yellow: #FAE361;
+  --color-Green: #56FF95;
+}
+
+main {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5vh;
+}
+
+button {
+  width: 90px;
+  height: 50px;
+  margin: 30px 15px;
+
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+#turnOnRed:hover {
+  background: var(--color-Red);
+}
+
+#turnOnYellow:hover {
+  background: var(--color-Yellow);
+}
+
+#turnOnGreen:hover {
+  background: var(--color-Green);
+}
+
